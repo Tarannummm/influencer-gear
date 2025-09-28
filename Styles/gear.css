@@ -1,0 +1,61 @@
+
+.saira-font {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+/*nav part*/
+.nav-containers{
+    display: flex;
+    
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 1140px;
+    margin: auto;
+    
+    
+
+}
+.nav-items{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+.start-journey{
+    max-width: 550px;
+    height: 280px;
+}
+
+
+
+
+
+
+.cam{
+    max-width: 300px;
+    height: 250px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+}
+
+
+.header-description{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    
+
+}
+.logos{
+    display: flex;
+    list-style-type: none; 
+   
+    justify-content: space-around;
+}
