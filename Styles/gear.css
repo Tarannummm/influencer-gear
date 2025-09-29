@@ -124,6 +124,7 @@ nav ul{
         max-width: 580px;
         margin-top:145px ;
         
+        
     }
     .banner-title{
         font-weight: 800;
@@ -137,4 +138,28 @@ nav ul{
         font-size: 1rem;
         margin-top: 0px;
         padding: 0px;
+    }
+    .btn-primary{
+        background-color: #E02C6D;
+        font-weight: bold;
+        color: white;
+        border-radius:40px;
+        border: none;
+        padding: 10px 40px;
+
+    }
+
+
+    /*logo part*/
+    .logo-container{
+        max-width: 1100px;
+        display: flex;
+        list-style: none;
+        margin:100px 165px;
+        align-items: center;
+        border: 2px solid #C0CCDA;
+        padding: 35px 60px;
+    }
+    .logo{
+        margin-right:30px ;
     }
