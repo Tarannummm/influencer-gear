@@ -119,6 +119,7 @@ nav ul{
     .banner{
         display: flex;
         justify-content: space-between;
+        gap: 60px;
     }
     .banner-content{
         max-width: 580px;
@@ -147,6 +148,12 @@ nav ul{
         border: none;
         padding: 10px 40px;
 
+    }
+    .bg-img{
+      
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
     }
 
 
@@ -248,9 +255,36 @@ nav ul{
      background-color: #E02C6D;
         font-weight: bold;
         color: white;
-        
+
+
         border: none;
         padding: 10px 40px;
 
   
+}
+
+
+.background-black{
+   background-color: #000000;
+   max-width: 1440px;
+   height: 200px;
+
+}
+.footer-container{
+    margin: 50px 590px;
+    text-align: center;
+    color:whitesmoke;
+    padding: 20px 0px 0px 0px;
+    
+}
+
+.footer-title{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-description{
+    font-weight: 400;
+    font-size: 14px;
+
 }
