@@ -7,18 +7,29 @@
   
 }
 /*nav part*/
-.nav-containers{
+/*.nav-containers{
     display: flex;
     
-    margin: auto;
+    
     align-items: center;
     justify-content: space-between;
     
     max-width: 1140px;
-    margin: auto;
-    
-    
+}
+.nav-h3-title{
+    font-size: 24px;
+    font-weight: 600;
+     margin-left: 120px;
+    margin-top: 50px;
+    max-width: 250px;
+}
 
+nav li a{
+    text-decoration: none;
+    
+}
+nav ul{
+    justify-content: space-between;
 }
 .nav-items{
     display: flex;
@@ -59,3 +70,71 @@
    
     justify-content: space-around;
 }
+    */
+    
+
+    /*navbar realted styles*/
+    .first-potion{
+        margin: 20px 120px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-items{
+        
+        list-style: none;
+        margin-right:30px ;
+        
+    }
+    .nav-links{  
+        display: flex;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        
+        
+
+        
+    }
+    nav ul a{
+        text-decoration: none;
+        color:black ;
+    }
+
+
+    .nav-items,.banner{
+        max-width: 1440px;
+       
+    }
+    .brand{
+        font-weight: 700;
+        font-size: 1.5rem;
+
+    }
+
+    /*banner related*/
+    .banner{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-content{
+        max-width: 580px;
+        margin-top:145px ;
+        
+    }
+    .banner-title{
+        font-weight: 800;
+        font-size: 3.2rem;
+    }
+    .banner-img{
+        max-width: 440px;
+    }
+    .banner-description{
+        font-weight: 300;
+        font-size: 1rem;
+        margin-top: 0px;
+        padding: 0px;
+    }
